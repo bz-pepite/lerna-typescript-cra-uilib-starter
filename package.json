@@ -1,11 +1,8 @@
 {
   "name": "lerna-typescript-cra-uilib-starter",
-  "version": "2.0.0",
+  "version": "0.0.0",
   "description": "Starter for Monorepos: Lerna, TypeScript, CRA and Storybook",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://repo.pepite.be/repository/npm-private/"
-  },
   "author": "shnyder.com",
   "license": "MIT",
   "private": true,
