@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Starter for Monorepos: Lerna, TypeScript, CRA and Storybook",
   "main": "index.js",
-  "repository": "https://github.com/shnydercom/lerna-typescript-cra-uilib-starter.git",
+  "publishConfig": {
+    "registry": "https://repo.pepite.be/repository/npm-private/"
+  },
   "author": "shnyder.com",
   "license": "MIT",
   "private": true,
@@ -16,6 +18,7 @@
   "scripts": {
     "story": "lerna run story --stream",
     "prestart": "lerna run libbuild --stream",
+    "libwatchbuild": "lerna run libwatchbuild --stream",
     "start": "lerna run start --stream"
   }
 }

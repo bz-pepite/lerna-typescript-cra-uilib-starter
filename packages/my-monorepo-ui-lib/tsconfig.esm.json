@@ -8,7 +8,11 @@
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
-    "lib": ["dom", "esnext"],
-    "declaration": false
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "declaration": false,
+    "declarationMap": false
   }
 }
