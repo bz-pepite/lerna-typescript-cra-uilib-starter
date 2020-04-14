@@ -5,7 +5,7 @@ export interface MyNewComponentProps {
 }
 
 export const MyNewComponent = (props: MyNewComponentProps) => {
-  return <span>{props.text} That is a 12 modification inside the lib</span>;
+  return <span>{props.text} That is a 2 modification inside the lib</span>;
 };
 
 export default MyNewComponent;
