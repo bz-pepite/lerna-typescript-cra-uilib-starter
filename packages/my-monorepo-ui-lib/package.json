@@ -1,6 +1,6 @@
 {
   "name": "@my-org/my-monorepo-ui-lib",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a UI library for my monorepo",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",

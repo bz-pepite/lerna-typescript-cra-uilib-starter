@@ -1,9 +1,9 @@
 {
   "name": "my-monorepo-cra-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
-    "@my-org/my-monorepo-ui-lib": "^1.0.0",
+    "@my-org/my-monorepo-ui-lib": "^1.1.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
